@@ -17,6 +17,7 @@ ActiveRecord::Schema.define(version: 20170605030623) do
     t.string   "message"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "name"
   end
 
 end
